@@ -22,4 +22,6 @@ if ($user && elgg_is_admin_user($user->guid)) {
                 'options_values' => get_installed_translations()
         ));
         echo elgg_view_module('info', $title, $content);
+} elseif ($user && isset($CONFIG->language) && ($CONFIG->language)) {
+        echo elgg_view('input/hidden', array('name' => 'language', 'value' => $CONFIG->language));
 }

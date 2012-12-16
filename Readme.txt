@@ -1,6 +1,6 @@
 Monolingual for Elgg 1.8
-Latest Version: 1.8.0
-Released: 2012-12-02
+Latest Version: 1.8.1
+Released: 2012-12-16
 Contact: iionly@gmx.de
 Website: https://github.com/iionly
 License: GNU General Public License version 2
@@ -21,6 +21,10 @@ Installation and configuration:
 
 
 Changelog:
+
+1.8.1:
+
+ - Avoiding warning message of user's language settings not being saved for normal users when saving user settings.
 
 1.8.0:
 
